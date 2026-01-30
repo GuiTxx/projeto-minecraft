@@ -23,4 +23,4 @@ Porque ele combina **criatividade + técnica**: cada ajuste de posição, luz e 
 
 ## 🔗 LinkedIn
 Quer acompanhar a evolução? Conecte-se comigo:
-**LinkedIn: https://www.linkedin.com/in/guitxx**
+**LinkedIn: https://www.linkedin.com/in/guiteixeiracunha**
