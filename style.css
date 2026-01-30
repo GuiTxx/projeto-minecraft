@@ -8,6 +8,10 @@
     src: url('./assets/fonts/Minecraft.ttf') format('truetype');
 }
 
+body{
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +19,7 @@
 }
 
 .hero {
+    width: 100vw;
     background-image: url("./assets/images/minecraftWallpaper.webp");
     background-size: cover;
     background-position: center;
@@ -24,6 +29,28 @@
 h1,
 h2 {
     font-family: "Minecraft", sans-serif;
+}
+
+.divAbelha{
+    width: 100vw;
+    height: 150vh;
+    position: absolute;
+
+    .abelha{
+        position: sticky;
+        top: 0;
+    }
+}
+
+.containerSteve{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    .steve{
+        bottom: 0;
+        position: static;
+    }
 }
 
 section {
@@ -85,6 +112,7 @@ section {
     font-size: 4vw;
     h2 {
         -webkit-text-stroke: .1vw black;
+        z-index: 999;
     }
 
 }
