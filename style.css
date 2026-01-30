@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('./assets/fonts/MinecraftTen-VGORe.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mine';
+    src: url('./assets/fonts/Minecraft.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url("./assets/images/minecraftWallpaper.webp");
+    background-size: cover;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+h1,
+h2 {
+    font-family: "Minecraft", sans-serif;
+}
+
+section {
+    height: 100vh;
+    gap: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicialSection {
+    h1 {
+        font-size: 12vw;
+        width: min-content;
+        -webkit-text-stroke: .1vw black;
+    }
+
+}
+
+.caixaParagrafo {
+    font-size: 1.2vw;
+    padding: 1.5vw 2vw;
+    text-transform: uppercase;
+    font-family: "Mine", sans-serif;
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
+    text-align: center;
+    background-color: #858585;
+    background-image: linear-gradient(rgba(26, 26, 26, 0.247), rgba(0, 0, 0, 0.4)), url(./assets/images/preview.jpg);
+    background-size: cover;
+    background-position: center;
+    border: .3vw solid black;
+    box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.432) inset, -3px -3px 0px rgba(0, 0, 0, 0.357) inset;
+}
+
+.middleSection {
+    align-items: end;
+    padding: 3vw;
+
+    h2 {
+        font-size: 7vw;
+        -webkit-text-stroke: .1vw black;
+
+        &:nth-child(1) {
+            text-align: right;
+        }
+
+        &:nth-child(2) {
+            text-align: center;
+        }
+
+        &:nth-child(3) {
+            text-align: left;
+        }
+    }
+}
+
+.finalSection {
+    font-size: 4vw;
+    h2 {
+        -webkit-text-stroke: .1vw black;
+    }
+
+}
